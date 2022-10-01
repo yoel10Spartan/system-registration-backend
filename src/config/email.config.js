@@ -12,7 +12,7 @@ export const sendMail = (data) => {
 
     const message = {
         from: 'congresofemeg@gmail.com',
-        to: ` ${data.email}`,
+        to: ` ${data.email} ${data.lastname}`,
         cc: 'contacto@ole-sfera.com, endoginhmujer@gmail.com, drjaimecalderon@gmai.com',
         subject: 'REGISTRO DE ASPIRANTES A CURSO ALTA ESPECIALIDAD EN ENDOSCOPIA GINECOLOGICA',
         attachment: [

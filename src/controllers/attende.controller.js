@@ -51,7 +51,7 @@ const saveField = (req, res) => {
     }
     res.send({
         err: 0,
-        ok: 'true'
+        ok: true
     });
 }
 

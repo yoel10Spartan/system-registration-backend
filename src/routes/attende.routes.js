@@ -14,12 +14,12 @@ const routes = app => {
     router.get("/excel", generateExcel);
 
     router.post('/send-mail', (req, res) => {
-        res.status(200).send({
-          status: "200",
-          message: 'Mail Sent!'
-        })
-
-        sendMail(req.body);
+      sendMail(req.body);
+      res.status(200).send({
+        ok: true,
+        status: "200",
+        message: 'Mail Sent!'
+      })
     })
 
     router.get('/zip', createZIP)
