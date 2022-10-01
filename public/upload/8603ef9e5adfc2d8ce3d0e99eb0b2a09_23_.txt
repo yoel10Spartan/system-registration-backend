@@ -1,0 +1,90 @@
+
+
+{ 
+"id": 1, 
+"name": "Christian Sastré", 
+"image": "csastre.jpg", 
+"title" :{ 
+            "english":"Head of Sales", 
+            "spanish":"Director de Ventas" 
+ }, 
+"phrase" : { 
+            "english":"GA is a set of companies specialized in developing and integrating IT solutions specifically designed for the Food & Beverage, Hospitality and Entertainment industries.", 
+            "spanish":"GA es un conjunto de empresas especializada en desarrollar e integrar soluciones informáticas específicamente diseñadas para las industrias de Alimentos y Bebidas, Hotelería y Entretenimiento." 
+ }, 
+"email": "csastre@ga.com.mx", 
+"location": 1, 
+"phone": "5541909546" 
+ },
+
+{ 
+"id": 2, 
+"name": "Verónica Navarro", 
+"image": "vnavarro.jpg", 
+"title" :{ 
+            "english":"Commercial Manager", 
+            "spanish":"Gerente Comercial" 
+}, 
+"phrase" : { 
+            "english":"In my work, I aim to build strong connections and empower people. Let’s chat!", 
+            "spanish":"En mi trabajo, mi objetivo es construir conexiones sólidas y empoderar a las personas. Hablemos!" 
+}, 
+
+"email": "vnavarro@ga.com.mx", 
+"location": 1, 
+"phone": "5541927559" 
+ },
+
+{ 
+"id": 3, 
+"name": "Alexis Valle", 
+"image": "avalle.jpeg", 
+"title" :{ 
+            "english":"Account Executive Sr.", 
+            "spanish":"Ejecutivo de cuenta Sr." 
+}, 
+"phrase" : { 
+            "english":"GA is a set of companies specialized in developing and integrating IT solutions specifically designed for the Food & Beverage, Hospitality and Entertainment industries.", 
+            "spanish":"GA es un conjunto de empresas especializada en desarrollar e integrar soluciones informáticas específicamente diseñadas para las industrias de Alimentos y Bebidas, Hotelería y Entretenimiento." 
+}, 
+
+"email": "avalle@ga.com.mx", 
+"location": 1, 
+"phone": "5541909557" 
+ },
+
+{ 
+"id": 4, 
+"name": "Osbaldo Cruz", 
+"image": "ocruz.jpeg", 
+"title" :{ 
+            "english":"Account Executive Sr.", 
+            "spanish":"Ejecutivo de cuenta Sr." 
+}, 
+"phrase" : { 
+            "english":"You have to learn the rules of the game and then play better than anyone else..", 
+            "spanish":"Tienes que aprender las reglas del juego y después jugar mejor que nadie." 
+}, 
+
+"email": "ocruz@ga.com.mx", 
+"location": 1, 
+"phone": "5541909558" 
+ },
+
+{ 
+"id": 5, 
+"name": "Ismael Salgado", 
+"image": "isalgado.png", 
+"title" :{ 
+            "english":"Account Executive Sr.", 
+            "spanish":"Ejecutivo de cuenta Sr." 
+}, 
+"phrase" : { 
+            "english":"GA is a set of companies specialized in developing and integrating IT solutions specifically designed for the Food & Beverage, Hospitality and Entertainment industries.", 
+            "spanish":"GA es un conjunto de empresas especializada en desarrollar e integrar soluciones informáticas específicamente diseñadas para las industrias de Alimentos y Bebidas, Hotelería y Entretenimiento." 
+}, 
+
+"email": "isalgado@ga.com.mx", 
+"location": 2, 
+"phone": "5543622857" 
+ },
