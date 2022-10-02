@@ -4,11 +4,9 @@ import multer from "multer";
 
 const app = express();
 
-var corsOptions = {
-    origin: "http://157.230.12.100"
-};
-
-app.use(cors(corsOptions));
+app.use(
+    cors({origin: ['http://localhost:3000', 'http://157.230.12.100']})
+);
 
 // parse requests of content-type - application/json
 app.use(express.json());
