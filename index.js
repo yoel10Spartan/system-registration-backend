@@ -5,7 +5,10 @@ import multer from "multer";
 const app = express();
 
 app.use(
-    cors({origin: ['http://localhost:3000', 'http://157.230.12.100']})
+    cors({
+        origin: "*",
+        methods: ['GET','POST','DELETE','UPDATE','PUT','PATCH']
+    })
 );
 
 // parse requests of content-type - application/json
