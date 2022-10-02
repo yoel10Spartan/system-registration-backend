@@ -5,7 +5,7 @@ import multer from "multer";
 const app = express();
 
 var corsOptions = {
-    origin: "http://157.230.12.100:8080/"
+    origin: "http://157.230.12.100"
 };
 
 app.use(cors(corsOptions));
