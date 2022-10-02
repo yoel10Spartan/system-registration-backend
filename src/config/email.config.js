@@ -16,7 +16,7 @@ export const sendMail = (data) => {
         cc: 'contacto@ole-sfera.com, endoginhmujer@gmail.com, drjaimecalderon@gmai.com',
         subject: 'REGISTRO DE ASPIRANTES A CURSO ALTA ESPECIALIDAD EN ENDOSCOPIA GINECOLOGICA',
         attachment: [
-            { data: template(data.name), alternative: true },
+            { data: template(data.name, data.lastname), alternative: true },
         ],
     };
 

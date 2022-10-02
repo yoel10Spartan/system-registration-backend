@@ -1,4 +1,4 @@
-const template = (name) => {
+const template = (name, lastname) => {
     return (
         `
             <!DOCTYPE html>
@@ -34,7 +34,7 @@ const template = (name) => {
                         <img src="http://157.230.12.100/static/media/logo2.28dbb1b7e70cca694542.PNG" />
                         <img src="http://157.230.12.100/static/media/logo3.565466eac7f8c8927ea9.PNG" />
                     </div>
-                    <p>Estimado(a): ${name.toUpperCase()}</p>
+                    <p>Estimado(a): ${name.toUpperCase()} ${lastname.toUpperCase()}</p>
                     <br />
                     <br />
                     <p>
