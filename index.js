@@ -5,7 +5,7 @@ import multer from "multer";
 const app = express();
 
 var corsOptions = {
-    origin: "http://localhost:3000"
+    origin: "*"
 };
 
 app.use(cors(corsOptions));
@@ -25,7 +25,7 @@ routes(app)
 
 // require("./src/routes/attende.routes.js")(app);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}.`);
 });

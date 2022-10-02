@@ -1,8 +1,8 @@
 const dbConfig = {
     HOST: "localhost",
     USER: "root",
-    PASSWORD: "Yoel.123",
+    PASSWORD: "femeG123y.123",
     DB: "FEMEG"
 };
 
-export default dbConfig
+export default dbConfig;
