@@ -3,15 +3,15 @@ import template from './template.js';
 
 export const sendMail = (data) => {
     const client = new SMTPClient({
-        user: 'congresofemeg@gmail.com',
-        password: 'qfmwcwlgplpggjhw',
+        user: 'femegcongreso@gmail.com',
+        password: 'mozbiqemtolsqrmr',
         host: 'smtp.googlemail.com',
         ssl: true,
         port: 465
     });
 
     const message = {
-        from: 'congresofemeg@gmail.com',
+        from: 'femegcongreso@gmail.com',
         to: ` ${data.email} ${data.lastname}`,
         cc: 'contacto@ole-sfera.com, endoginhmujer@gmail.com, drjaimecalderon@gmai.com',
         subject: 'REGISTRO DE ASPIRANTES A CURSO ALTA ESPECIALIDAD EN ENDOSCOPIA GINECOLOGICA',
